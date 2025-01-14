@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "FullStack web app using NodeJS, Express, React, Redux and MongoDB",
   "main": "index.js",
+  "engines": {
+    "node": "20.10.0",
+    "npm": "10.2.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
